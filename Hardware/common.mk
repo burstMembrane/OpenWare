@@ -10,7 +10,7 @@ CPPFLAGS += -DGIT_REVISION='"$(GIT_REVISION)"'
 CPPFLAGS += -D__PROGRAM_START=1 # prevent compilation of __cmsis_start function
 
 # Tool path
-# TOOLROOT ?= ~/bin/gcc-arm-none-eabi-9-2020-q2-update/bin/
+TOOLROOT ?= /Applications/ARM/bin/
 
 # Tools
 CC=$(TOOLROOT)arm-none-eabi-gcc
